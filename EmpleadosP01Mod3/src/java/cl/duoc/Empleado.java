@@ -1,7 +1,7 @@
+
 package cl.duoc;
 
 public class Empleado {
-
     private String rut;
     private String nombre;
     private int edad;
@@ -48,13 +48,13 @@ public class Empleado {
     public void setAntiguedad(int antiguedad) {
         this.antiguedad = antiguedad;
     }
-
-    public int montoBono() {
-        if (this.antiguedad > 3) {
-            return (this.antiguedad * 50000);
-
+    public int montoBono()
+    {
+        if(this.antiguedad>3)
+        {
+            return (this.antiguedad*50000);
+            
         }
         return 0;
-    }
-
+    }    
 }
